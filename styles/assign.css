@@ -29,7 +29,7 @@ nav{
 }
 .header{
     background-image: url('../Assets/Hero-bg.png');
-    max-width: 1140px;
+    max-width: 1440px;
     height: 698px;
 
 }
@@ -50,7 +50,7 @@ nav{
    height: 328px;
    display: flex;
    justify-content: space-around;
-   margin: 100px 35px 0px 2px;
+   margin: 100px 50px 0px 92px;
 }
 .mini-pg{
    max-width: 403px;
@@ -60,4 +60,89 @@ nav{
    max-width: 517px;
    height: 203px;
 }
+.productive-title{
+   max-width: 856px;
+   height: 45px;
+   margin-bottom: 10px;  
+}
+.productive-items{
+    display: flex;
+    gap: 24px;
+    max-width: 856px;
+    height: 127px;
 
+}
+.items{
+    max-width: 180px;
+    height: 121px;
+    margin:  30px 15px 50px 100px;
+}
+.productive-users-section{
+    background-color: #afaecf;
+    max-width: 11460x;
+    height: 206px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-top: 50px;
+    border-radius: 24px;
+}
+.pro-title{
+    color: #4e47ef;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.text-user{
+    text-align: center;
+}
+.user{
+    font-weight: 1140px;
+    height: 342px;
+    margin:  150px 15px 50px 100px ;
+    margin-bottom: 40px;
+}
+    
+.display{
+    display: flex;
+    font-weight: 1140px;
+    height: 243px;
+}
+
+.user-say{
+    border-radius: 14px;
+    font-weight: 366px;
+    height: 243px;
+}
+.avatar-text{
+    color: black;
+}
+.icon-text{
+     color: black;
+}
+.width{
+    font-weight: 318px;
+    height: 81px;
+}
+.border{
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px,rgba(75, 2, 2, 0.06);
+}
+.focus{
+    text-align: center;
+}
+.big-img{
+    border-radius: 48px;
+    height: 364px;
+    font-weight: 840px;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+footer{
+    display: flex;
+    gap: 100px;
+}
