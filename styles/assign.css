@@ -55,6 +55,7 @@ nav{
 .mini-pg{
    max-width: 403px;
    height: 328px; 
+   border-radius: 48px;
 }
 .action-1{
    max-width: 517px;
@@ -144,5 +145,34 @@ nav{
 }
 footer{
     display: flex;
-    gap: 100px;
+    gap: 200px;
+    margin-left: 500px;
+}
+.log{
+    font-size: 100px;
+    color: #4e47ef;
+    margin-right: 1000px;
+    margin-bottom: 5px;
+    
+}
+.logos{
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 1000px;
+    font-weight: 531px;
+    height: 48px;
+    color: #8987a1;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 401px;
+    height: 24px;
+    margin-right: 800px;
+    margin-bottom: 100px;
+}
+.last-time{
+    font-weight: 531px;
+    height: 177px;
 }
