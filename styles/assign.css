@@ -284,7 +284,7 @@ body{
     padding: 60px 10px 5px;
     max-width: 1140px;  
     height: 696px;
-    margin-left:300px ;
+    margin-left:90px ;
 }
 .f-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -293,6 +293,7 @@ body{
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 .btn{
     display: inline-block;
