@@ -1,10 +1,8 @@
-.nav-title{
-    color: #4e47ef;
-    font-weight: 99px;
-    height: 51px;
-}
 body{
     background-color: rgba(243, 251, 255,0.907);
+}
+.W{
+    font-family:"Raleway", sans-serif;
 }
 .btn-small-primary{
     padding: 8px 16px;
@@ -13,6 +11,9 @@ body{
     border-radius: 10px;
     border: none;
     color: white;
+}
+.btn-small-primary:hover{
+    background-color: yellow;
 }
 .btn-primary{
     background-color: #4e47ef;
@@ -23,101 +24,204 @@ body{
     height: 48px;
     gap: 16px;
 }
-nav{
+.navbar-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
-    height: 151px;
-    margin: 50px 50px;
-}
-.banner-title{
-    color: #252432;
-    font-size: 65px;
-}
-.banner{
-    text-align: center;
-    padding: 80px 20px;
-}
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    max-width: 1440px;
-    height: 698px;
-    padding: 20px 40px;
+    padding: 50px 0;
     margin: 0 auto;
+    width: 80%;
+    font-family: "Inter", sans-serif;
 }
-.title{
-  font-size: 42px;
-   max-width: 517px;
-   height: 49px;
-   color: #252432;
+.navbar h1{
+    color: #4E47FF;
+    font-size: 34px;
+}
+.btn{
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    color: white;
+    width: 132px;
+    height: 48px;
+    gap:16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
 
+/* banner section  */
+.banner{
+    width: 1140px;
+    height: 698px;
+    background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.sub-title{
-   font-size: 24px;
-   max-width: 517px;
-   height: 60px;
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 158px 267.5px 200px;
+}
+.banner-content h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn-1{
+    margin: 50px 300px;
+    width: 174px;
+    height:48px;
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+/* banner section  */
+.banner{
+    width: 100%;
+    height: 698px;
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 158px 267.5px 200px;
+}
+.banner-content h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn-1{
+    margin: 50px 300px;
+    width: 174px;
+    height:48px;
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
 }
 .action{
-   max-width: 1140px;
-   height: 328px;
-   display: flex;
-   justify-content: space-around;
-   margin: 100px 50px 0px 92px;
-   align-items: center;
-   padding: 60px 20px;
-   flex-wrap: wrap;
-   margin: 0 auto;
-}
-.mini-pg{
-   max-width: 403px;
-   height: 328px; 
-   border-radius: 48px;
-   box-shadow: 0px 0px 20px,rgba(0, 0, 0, 0.1);
-}
-.action .action-1{
-   max-width: 517px;
-   height: 203px;
-}
-.productive-title{
-   max-width: 856px;
-   height: 45px;
-   margin-left: 120px ;
-   padding-top: 50px;
-}
-.productive-items{
     display: flex;
-    justify-content: space-around;
-    padding:40px;
-    text-align: center;
-    max-width: 856px;
-    height: 206px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+    margin: 130px auto ;
 }
-.items{
-    max-width: 180px;
-    height: 121px;
-    margin: 0 auto;
-    margin-left: 150px;
+.action h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom:23px;
 }
-.productive-users-section{
-    background-color: #d3d1fb;
-    max-width: 1140px;
+.action h2{
+    font-size: 24px;
+    color: grey;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 23px;
+    opacity: 0.5;
+}
+.btn-2{
+    width: 229px;
+    height: 48px;
+    padding:12px 36px ;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+    border: 1px solid #4E47FF;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+.btn-2:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+.action img{
+    border-radius:48px;
+}
+
+/* productive section  */
+.productive {
+    margin: 130px auto;
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
     height: 306px;
+    border-radius: 20px;
     text-align: center;
-    margin-top: 30px;
-    border-radius: 24px;
-    align-items: center;
-    margin-left: 300px;
-    
 }
-.pro-title{
-    color: #4e47ef;
+
+.section-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
 }
-.avatar{
+
+.stats {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap:10px;
 }
+
+.stats h1 {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stats h2 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #252432;
+}
+
 .text-user{
     text-align: center;
 }
@@ -125,8 +229,7 @@ nav{
     font-weight: 1140px;
     height: 342px;
     padding: 60px 20px;
-    background-color: #ffffff;
-    /*margin:  150px 15px 50px 100px ;*/
+    /margin:  150px 15px 50px 100px ;/
     margin-bottom: 40px;
 }
     
@@ -201,44 +304,94 @@ nav{
   font-weight: bold;
   margin-right:10px;
 }
-.contact{
-    display: flex;
-    gap: 200px;
-    margin-left: 500px;
-}
-.contact form{
-    max-width: 497px;
-    height: 480px;
 
-}
-footer {
-  background: #eef0ff;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.footer-logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #5b00f7;
-  margin-bottom: 12px;
-}
-
-footer nav {
-  margin-top: 12px;
-  max-width: 401px;
-  height: 24px;
+.contact-section {
+  display: flex;
   justify-content: center;
-  margin-left: 650px;
+  align-items: center;
+  padding: 80px;
+  gap: 80px;
+  flex-wrap: wrap;
 }
 
-footer a {
-  margin: 0 10px;
-  color: #333;
-  text-decoration:none;
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Inter", sans-serif;
 }
-footer p{
-    max-width: 531px;
-    height: 48px;
-     margin-left: 600px;
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-right label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+
+.contact-right textarea {
+  height: 120px;
+}
+
+.contact-right button {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-right button:hover {
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+.footer {
+    width: 1140;
+    height: 428px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 50px ;
+}
+.footer h1 {
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.foot {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  color: #4E47FF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: white;
 }

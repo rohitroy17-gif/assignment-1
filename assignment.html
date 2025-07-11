@@ -3,47 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="styles/assign.css">
 </head>
 <body>
-    <header class="header">
-       <nav>
-        <h3 class="nav-title">LOGO</h3>
-        <a href=""><button class="btn-small-primary">sign up</button></a>
-       </nav>
-       <div class="banner">
-        <div class="banner-content">
-            <h1 class="banner-title"><b>Cool Dark UI Template for<br> Webflow Agencies!</b></h1>
-            <a href=""><button class="btn-primary">Stay Focused</button></a>
-        </div>
-       </div>
-    </header>
+     <header class="banner">
+          <nav class="navbar">
+               <div class="navbar-content">
+                <div>
+                <h1>LOGO</h1>
+               </div> 
+               <div>
+                 <button class="btn">Sign Up</button> 
+               </div>
+               </div>
+          </nav>
+          <section class="banner-content">
+             <div>
+                <h1>Cool Dark UI Template for <br><span class="text"> <span class="W">W</span>ebflow  Agencies!</span></h1>
+                <button class="btn-1">Stay Focused</button>
+             </div>
+          </section>
+      </header>
     <main>
-       <section class="action">
-        <div class="action-1">
-        <h2 class="title"><b>See It in Action</b></h2>
-        <p class="sub-title">Explore the live preview and imagine your brand in this bold new look.</p>
-        <a href=""><button class="btn-small-primary">Launch Live Preview Button</button></a>
+       <main class="action">
+        <section>
+            <h1>See It in Action</h1>
+            <h2>Explore the live preview and imagine your <br> brand in this bold new look.</h2>
+            <button class="btn-2">Launch Live Preview</button>
+        </section>
+        <section>
+            <img src="Assets/wc-mini.png" style="width: 403px; height: 328px;" alt="">
+        </section>
+       </main>
+
+ <!-- productive section  -->
+    <section class="productive">
+    <h1 class="section-title">Joined Thousands of Productive Users</h1>
+    <div class="stats">
+        <div>
+            <h1>50K</h1>
+            <h2>Active Users</h2>
         </div>
-        <img class="mini-pg" src="Assets/wc-mini.png">
-       </section>
-       <section class="productive-users-section">
-        <h2 class="productive-title"><b>Joined Thousands of Productive Users</b></h2>
-         <div class="productive-items">
-           <div class="items">
-                <h1 class="pro-title" ><b>50k</b></h1>
-                <h3>Active Users</h3>
-            </div>
-             <div class="items">
-                <h1 class="pro-title"><b>2M+</b></h1>
-                <h3>Focus Sections</h3>
-            </div>
-             <div class="items">
-                <h1 class="pro-title"><b>95%</b></h1>
-                <h3>Satisfaction Rate</h3>
-            </div>
-         </div>
+        <div>
+            <h1>2M+</h1>
+            <h2>Focus Sessions</h2>
+        </div>
+        <div>
+            <h1>95%</h1>
+            <h2>Satisfaction Rate</h2>
+        </div>
+    </div>
+    </section>
        </section>
         <section class="user">
         <div class="text-user">
@@ -114,29 +130,44 @@
             <button class="btn">Get Started Free</button><br>
             <img class="big-img" src="Assets/wc-big.png">       
         </section>
-        <section class="contact">
-            <h1><b>Let's Get in Touch</b></h1>
-        <div class="contact-column">
-            <form action="">
-                <label for="Email">Email:</label><br>
-                <input type="email" name="" placeholder="example@email.com"><br>
-                <label for="Name">Name:</label><br>
-                <input type="Name" name="" placeholder="Full Name"><br>
-                <label for="Message">Message:</label><br>
-                <textarea name="" id="" cols="40" rows="5" placeholder="write your message"></textarea><br>
-                <input class="btn-primary" type="submit" value="get in touch">
-            </form>
-        </section>
+        <div class="contact-section">
+  <div class="contact-left">
+    <h1>Let's Get in<br>Touch</h1>
+  </div>
+  <div class="contact-right">
+    <form>
+      <label style="font-weight:bold ; font-family: Arial, Helvetica, sans-serif;">Email</label>
+      <input type="email" placeholder="example@email.com" />
+
+      <label style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Name</label>
+      <input type="text" placeholder="full name" />
+
+      <label style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Message</label>
+      <textarea placeholder="write your message...."></textarea>
+
+      <button type="submit">Get in Touch</button>
+    </form>
+  </div>
+</div>
+
     </main>
     <footer>
-        <div class="footer-logo">LOGO</div>
-        <P>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</P>
-        <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">How it Works</a>
-            <a href="">Contact</a>
-        </nav>
+        <div class="footer-container">
+        <div class="footer">
+           <div>
+             <div>
+                <h1>LOGO</h1>
+                <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+            </div>
+        </div>
+        <div class="foot">
+            <p>Home</p>
+            <p>About</p>
+            <p>How it Works</p>
+            <p>Services</p>
+        </div>
+           </div>
+    </div>
     </footer>
 </body>
 </html>
