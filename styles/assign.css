@@ -3,6 +3,17 @@
     font-weight: 99px;
     height: 51px;
 }
+body{
+    background-color: rgba(243, 251, 255,0.907);
+}
+.btn-small-primary{
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4e47ef;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
 .btn-primary{
     background-color: #4e47ef;
     color: white;
@@ -26,12 +37,14 @@ nav{
 }
 .banner{
     text-align: center;
+    padding: 80px 20px;
 }
 .header{
     background-image: url('../Assets/Hero-bg.png');
     max-width: 1440px;
     height: 698px;
-
+    padding: 20px 40px;
+    margin: 0 auto;
 }
 .title{
   font-size: 42px;
@@ -51,42 +64,51 @@ nav{
    display: flex;
    justify-content: space-around;
    margin: 100px 50px 0px 92px;
+   align-items: center;
+   padding: 60px 20px;
+   flex-wrap: wrap;
+   margin: 0 auto;
 }
 .mini-pg{
    max-width: 403px;
    height: 328px; 
    border-radius: 48px;
+   box-shadow: 0px 0px 20px,rgba(0, 0, 0, 0.1);
 }
-.action-1{
+.action .action-1{
    max-width: 517px;
    height: 203px;
 }
 .productive-title{
    max-width: 856px;
    height: 45px;
-   margin-bottom: 10px;  
+   margin-left: 120px ;
+   padding-top: 50px;
 }
 .productive-items{
     display: flex;
-    gap: 24px;
+    justify-content: space-around;
+    padding:40px;
+    text-align: center;
     max-width: 856px;
-    height: 127px;
-
+    height: 206px;
 }
 .items{
     max-width: 180px;
     height: 121px;
-    margin:  30px 15px 50px 100px;
+    margin: 0 auto;
+    margin-left: 150px;
 }
 .productive-users-section{
-    background-color: #afaecf;
-    max-width: 11460x;
-    height: 206px;
+    background-color: #d3d1fb;
+    max-width: 1140px;
+    height: 306px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 800px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 24px;
+    align-items: center;
+    margin-left: 300px;
+    
 }
 .pro-title{
     color: #4e47ef;
@@ -102,12 +124,18 @@ nav{
 .user{
     font-weight: 1140px;
     height: 342px;
-    margin:  150px 15px 50px 100px ;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    /*margin:  150px 15px 50px 100px ;*/
     margin-bottom: 40px;
 }
     
 .display{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
     font-weight: 1140px;
     height: 243px;
 }
@@ -116,6 +144,10 @@ nav{
     border-radius: 14px;
     font-weight: 366px;
     height: 243px;
+    max-width: 280px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 .avatar-text{
     color: black;
@@ -132,47 +164,81 @@ nav{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px,rgba(75, 2, 2, 0.06);
 }
-.focus{
-    text-align: center;
-}
 .big-img{
     border-radius: 48px;
     height: 364px;
     font-weight: 840px;
-    margin-left: 500px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-top: 170px;
+    margin-bottom: 1700px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top:20px; 
 }
-footer{
+.focus-better{
+    border-radius: 14px;
+    text-align: center;
+    background-color: white;
+    padding: 60px 10px 5px;
+    max-width: 1140px;  
+    height: 696px;
+    margin-left:300px ;
+}
+.f-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.focus-better p{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right:10px;
+}
+.contact{
     display: flex;
     gap: 200px;
     margin-left: 500px;
 }
-.log{
-    font-size: 100px;
-    color: #4e47ef;
-    margin-right: 1000px;
-    margin-bottom: 5px;
-    
+.contact form{
+    max-width: 497px;
+    height: 480px;
+
 }
-.logos{
-    margin-top: 5px;
-    justify-content: center;
-    margin-right: 1000px;
-    font-weight: 531px;
+footer {
+  background: #eef0ff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5b00f7;
+  margin-bottom: 12px;
+}
+
+footer nav {
+  margin-top: 12px;
+  max-width: 401px;
+  height: 24px;
+  justify-content: center;
+  margin-left: 650px;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration:none;
+}
+footer p{
+    max-width: 531px;
     height: 48px;
-    color: #8987a1;
-}
-.list{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    font-weight: 401px;
-    height: 24px;
-    margin-right: 800px;
-    margin-bottom: 100px;
-}
-.last-time{
-    font-weight: 531px;
-    height: 177px;
+     margin-left: 600px;
 }
